@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ConversionArt</title>
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="icon" href="img/short_logo.svg" type="svg">
+	<script src="/js/app.js" defer></script>
+</head>
+<body>
+	<div class="popup" id="popup">
+		<a href="#" class="popup_area"></a>
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#" class="popup__close"><img src="/img/cross.svg"></a>
+				<div class="popup__mainTitle">Укажите контактные данные 
+					и удобное время для звонка</div>
+				<div class="popup__title">Мы перезвоним вам в течение 10 минут 
+					или в другое удобное время</div>
+				<div class="popup__time">Мы работаем Пн — Пт, с 9:00 до 18:00</div>
+				<form action="#" method="get">
+					<input type="text" name="name" placeholder="Как к вам обращаться?" class="popup__time-input">
+					<input type="text" name="tel" placeholder="Телефон для связи" class="popup__time-input popup__time-inputModify">
+					<p class="popup__time-text">Когда вам позвонить?</p>
+					<button class="popup__time-button">СЕЙЧАС</button>
+					<button class="popup__time-button green-button">ПО ВРЕМЕНИ</button>
+					<input type="text" name="time" placeholder="Например: 21 октября в 14:00" class="popup__time-input">
+					<button type="submit" class="popup__time-submit">Перезвоните мне</button>
+					<p class="popup__time-agree">Нажимая на кнопку, вы даете согласие на обработку 
+						своих персональных данных и соглашаетесь <b>с Политикой конфиденциальности</b></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="popup-items" id="popup-items">
+		<a href="#" class="popup-items__area"></a>
+		<div class="popup-items__body">
+			<div class="popup-items__content">
+				<div class="popup-items__partone">
+					<div class="popup-items__title">По категории</div>
+					<div class="popup-items__all">
+						<a href="" class="popup-items__item">Барокамеры</a>
+						<a href="" class="popup-items__item">Дистракторы</a>
+						<a href="" class="popup-items__item">Интегрированная операционная</a>
+						<a href="" class="popup-items__item">Контейнеры для стерилизации</a>
+						<a href="" class="popup-items__item">Лазеры для косметологии</a>
+						<a href="" class="popup-items__item">Медицинские консоли</a>
+						<a href="" class="popup-items__item">Медицинские светильники</a>
+						<a href="" class="popup-items__item">Налобные осветители</a>
+						<a href="" class="popup-items__item">Пластины и винты</a>
+						<a href="" class="popup-items__item">Резорбируемые пластины</a>
+						<a href="" class="popup-items__item">Респираторное оборудование</a>
+						<a href="" class="popup-items__item">Сервисное обслуживание</a>
+						<a href="" class="popup-items__item">Фототерапия</a>
+						<a href="" class="popup-items__item">Хирургические лазеры</a>
+						<a href="" class="popup-items__item">Хирургический инструмент</a>
+						<a href="" class="popup-items__item">Электрохирургия</a>
+					</div>
+				</div>
+				<div class="popup-items__line"></div>
+				<div class="popup-items_parttwo">
+					<div class="popup-items__title">По направлению</div>
+					<div class="popup-items__all">
+						<a href="" class="popup-items__item">Абдоминальная хирургия</a>
+						<a href="" class="popup-items__item">Гастроэнтерология</a>
+						<a href="" class="popup-items__item">Гинекология</a>
+						<a href="" class="popup-items__item">ЛОР</a>
+						<a href="" class="popup-items__item">Нейрохирургия</a>
+						<a href="" class="popup-items__item">Общая хирургия</a>
+						<a href="" class="popup-items__item">Ортопедия</a>
+						<a href="" class="popup-items__item">Пластическая хирургия</a>
+						<a href="" class="popup-items__item">Сердечно-сосудистая хирургия</a>
+						<a href="" class="popup-items__item">Стоматологическая и оральная <p>хирургия</p></a>
+						<a href="" class="popup-items__item">Травматология</a>
+						<a href="" class="popup-items__item">Урология</a>
+						<a href="" class="popup-items__item">Флебология</a>
+						<a href="" class="popup-items__item">Хирургия кисти</a>
+						<a href="" class="popup-items__item">Челюстно-лицевая хирургия</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup-company" id="popup-company">
+		<a href="#" class="popup-company__area"></a>
+		<div class="popup-company__body">
+			<div class="popup-company__content">
+				<a class="popup-company__item">О компании</a>
+				<a class="popup-company__item popup-company_margin">Сотрудничество</a>
+				<a class="popup-company__item">Блог</a>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="header__title">
+			<div class="header__title-left">
+				<div class="header__title-logo"><a	href="/index.html"><img src="/img/logo.svg" alt="logo"></a></div>
+				<select class="header__title-lang" id="lang">
+					<option class="header__title-langOption">EN</option>
+					<option class="header__title-langOption" selected>RU</option>
+				</select>
+				<div class="header__title-text">Работаем в сфере здравоохранения. Наука и образование, лечение, поставка медицинского оборудования</div>
+			</div>
+			<div class="header__title-right">
+				<div class="header__title-WA"><a href="/index.html"><img src="/img/WhatsApp.svg" alt="WhatsApp"></a></div>
+				<div class="header__title-tel">
+					<div class="header__title-number"><a href="/index.html" style="text-decoration: none; color: #0a0a0a">8 (800) 101-97-76</a></div>
+					<div class="header__title-time">Пн — Пт с 9:00 до 18:00 </div>
+				</div>
+				<div class="header__title-button"><a href="#popup" style="text-decoration: none;" class="header__title-buttonText">Заказать звонок</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="header__description">
+		<div class="header__description-left">
+			<div class="header__description-logo"><img src="/img/logo_small.svg" alt="logo"></div>
+			<div class="header__description-menu">
+				<div class="header__description-item">Наука</div>
+				<div class="header__description-item">образование</div>
+				<div class="header__description-item">лечение</div>
+				<a href="#popup-items" class="header__description-item des_item-m" id="equipment">оборудование</a><img src="/img/arrow.svg" class="des_item-img">
+				<div class="header__description-item">спецпроекты</div>
+				<a href="#popup-company" class="header__description-item des_item-m" id="company">о компании</a><img src="/img/arrow.svg" class="des_item-img">
+				<div class="header__description-item">контакты</div>
+			</div>
+		</div>
+		<div class="header__description-right">
+			<form class="header__description-form">
+				<input type="text" placeholder="Начните вводить, что вас интересует" class="header__description-input">
+				<button type="submit" class="header__description-button"><img src="/img/search.svg"></button>
+			</form>
+			<img src="/img/bar-chart.svg" class="header__description-margin">
+			<img src="/img/shopping-cart.svg">
+		</div>
+	</div>
+	<div class="main">
+		<div class="main__body">
+			<div class="main__first">
+				<div class="main__body-title">Impex Life</div>
+				<div class="main__body-titleSecond">Комплексное решение задач в сфере медицины и здравоохранения</div>
+				<div class="main__body-text">Работаем по всей России, Казахстану и в других странах СНГ</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="content">
+		<div class="header__title footer__header">
+			<div class="header__title-left">
+				<div class="header__title-logo"><a	href="/index.html"><img src="/img/logo.svg" alt="logo"></a></div>
+				<select class="header__title-lang" id="lang">
+					<option class="header__title-langOption">EN</option>
+					<option class="header__title-langOption" selected>RU</option>
+				</select>
+				<div class="header__title-text">Работаем в сфере здравоохранения. Наука и образование, лечение, поставка медицинского оборудования</div>
+			</div>
+			<div class="header__title-right">
+				<div class="header__title-WA"><a href="/index.html"><img src="/img/WhatsApp.svg" alt="WhatsApp"></a></div>
+				<div class="header__title-tel">
+					<div class="header__title-number"><a href="/index.html" style="text-decoration: none; color: #0a0a0a">8 (800) 101-97-76</a></div>
+					<div class="header__title-time">Пн — Пт с 9:00 до 18:00 </div>
+				</div>
+				<div class="header__title-button"><a href="#popup" style="text-decoration: none;" class="header__title-buttonText">Заказать звонок</a></div>
+			</div>
+		</div>
+		<div class="footer__serch">
+			<form class="footer__serch-form">
+				<span><img src="/img/search.svg"></span>
+				<input type="text" placeholder="Начните вводить, что вас интересует">
+				<button class="footer__serch-subm" type="submit">НАЙТИ</button>
+			</form>
+		</div>
+		<div class="footer__instr">
+			<div class="footer__instr-body">
+				<div class="footer__instr-column">
+					<a href="" class="footer__instr-item">Наука</a>
+					<a href="" class="footer__instr-item">Образование</a>
+					<a href="" class="footer__instr-item">Лечение</a>
+					<a href="" class="footer__instr-item footer__instr-margin">Спецпроекты
+						<a href="" class="footer__instr-itemText">ГБО</a>
+						<a href="" class="footer__instr-itemText">Интегрированные операционные</a>
+						<a href="" class="footer__instr-itemText">Мастер-классы</a>
+						<a href="" class="footer__instr-itemText footer__instr-itemMargin">Паллиатив</a>
+					</a>
+					<a href="" class="footer__instr-item footer__instr-margin">О компании
+						<a href="" class="footer__instr-itemText">Блог</a>
+						<a href="" class="footer__instr-itemText footer__instr-itemMargin">Сотрудничество</a>
+					</a>
+					<a href="" class="footer__instr-item">Контакты</a>
+				</div>
+				<div class="footer__instr-column">
+					<a href="" class="footer__instr-item">Оборудование</a>
+					<a href="" class="footer__instr-item">По категории
+						<a href="" class="footer__instr-itemText">Барокамеры </a>
+						<a href="" class="footer__instr-itemText">Дистракторы</a>
+						<a href="" class="footer__instr-itemText">Интегрированная операционная</a>
+						<a href="" class="footer__instr-itemText">Контейнеры для стерилизации</a>
+						<a href="" class="footer__instr-itemText">Лазеры для косметологии </a>
+						<a href="" class="footer__instr-itemText">Медицинские консоли</a>
+						<a href="" class="footer__instr-itemText">Медицинские светильники</a>
+						<a href="" class="footer__instr-itemText">Налобные осветители</a>
+						<a href="" class="footer__instr-itemText">Пластины и винты</a>
+						<a href="" class="footer__instr-itemText">Резорбируемые пластины</a>
+						<a href="" class="footer__instr-itemText">Респираторное оборудование</a>
+						<a href="" class="footer__instr-itemText">Сервисное обслуживание</a>
+						<a href="" class="footer__instr-itemText">Фототерапия</a>
+						<a href="" class="footer__instr-itemText">Хирургические лазеры</a>
+						<a href="" class="footer__instr-itemText">Хирургический инструмент</a>
+						<a href="" class="footer__instr-itemText">Электрохирургия</a>
+					</a>
+				</div>
+				<div class="footer__instr-column">
+					<a href="" class="footer__instr-item footer__instr-modify">По направлению
+						<a href="" class="footer__instr-itemText">Абдоминальная хирургия</a>
+						<a href="" class="footer__instr-itemText">Гастроэнтерология</a>
+						<a href="" class="footer__instr-itemText">Гинекология</a>
+						<a href="" class="footer__instr-itemText">ЛОР</a>
+						<a href="" class="footer__instr-itemText">Нейрохирургия</a>
+						<a href="" class="footer__instr-itemText">Общая хирургия</a>
+						<a href="" class="footer__instr-itemText">Ортопедия</a>
+						<a href="" class="footer__instr-itemText">Пластическая хирургия</a>
+						<a href="" class="footer__instr-itemText">Сердечно-сосудистая хирургия</a>
+						<a href="" class="footer__instr-itemText">Стоматологическая и оральная <p>хирургия</p></a>
+						<a href="" class="footer__instr-itemText">Травматология</a>
+						<a href="" class="footer__instr-itemText">Урология</a>
+						<a href="" class="footer__instr-itemText">Флебология</a>
+						<a href="" class="footer__instr-itemText">Хирургия кисти</a>
+						<a href="" class="footer__instr-itemText">Челюстно-лицевая хирургия</a>
+					</a>
+				</div>
+				<div class="footer__instr-column">
+					<a href="" class="footer__instr-item">Подписывайтесь на нас</a>
+					<div class="footer__instr-socnet">
+						<a href="" class="footer__socnet-img"><img src="/img/button.svg" alt="youtube"></a>
+						<a href="" class="footer__socnet-img"><img src="/img/vk.svg" alt="vk"></a>
+					</div>
+					<div class="footer__instr-emailText">
+						<div class="footer__instr-emai">Наш email</div>
+						<a class="footer__instr-email">sales@impex.life</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_end">
+			<div class="footer_end-text footer_end-item">© 2021 ООО «ИМПЕКС ЛАЙФ» 
+				ОГРН 1153926025263</div>
+				<div class="footer_end-text footer_end-item">Политика конфиденциальности</div>
+				<div class="footer_end-item">
+					<div class="footer_end-text">Разработка сайта</div>
+					<div class="footer_end-img"><img src="/img/Group.svg" alt="group"></div>
+				</div>
+		</div>
+		</div>
+	</footer>
+</body>
+</html>
